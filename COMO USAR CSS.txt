@@ -1,0 +1,74 @@
+1- Selecionar os elementos HTML:
+Antes de aplicar estilos, é necessário selecionar os elementos HTML aos quais deseja aplicar os estilos. Isso pode ser feito usando seletores CSS.
+
+2- Criar um arquivo CSS:
+Crie um arquivo com a extensão .css, por exemplo, estilos.css, onde você irá definir todas as regras de estilo.
+
+3- Vincular o arquivo CSS ao arquivo HTML:
+No cabeçalho (<head>) do arquivo HTML, insira um link para o arquivo CSS usando a tag <link>.
+
+
+EXEMPLO:
+
+---------------------------------------------------------------------------------
+<link rel="stylesheet" href="estilos.css">
+---------------------------------------------------------------------------------
+
+4- Definir regras de estilo:
+Dentro do arquivo CSS, defina as regras de estilo para os elementos selecionados. Cada regra consiste em um seletor seguido por um bloco de declaração de estilo.
+
+---------------------------------------------------------------------------------
+/* Seletor */
+h1 {
+    /* Declaração de estilo */
+    color: blue;
+    font-size: 24px;
+}
+---------------------------------------------------------------------------------
+
+
+5- Propriedades e valores CSS:
+Use propriedades CSS para definir o estilo dos elementos. As propriedades especificam o que será estilizado, como cor, tamanho da fonte, margem, etc. Os valores das propriedades definem como será aplicado o estilo.
+
+---------------------------------------------------------------------------------
+/* Propriedade: valor */
+color: blue; /* Cor do texto azul */
+font-size: 24px; /* Tamanho da fonte 24 pixels */
+margin: 10px; /* Margem de 10 pixels em todos os lados */
+---------------------------------------------------------------------------------
+
+6- Seletores CSS:
+Utilize diferentes tipos de seletores para segmentar elementos de forma específica. Além dos seletores de elementos, você pode usar classes, IDs, pseudo-classes e pseudo-elementos.
+
+---------------------------------------------------------------------------------
+/* Seletor de Elemento */
+h1 {
+    /* Estilos para todos os elementos h1 */
+}
+
+/* Seletor de Classe */
+.destaque {
+    /* Estilos para elementos com a classe "destaque" */
+}
+
+/* Seletor de ID */
+#cabecalho {
+    /* Estilos para o elemento com o ID "cabecalho" */
+}
+
+/* Pseudo-classe */
+a:hover {
+    /* Estilos para links quando o mouse está sobre eles */
+}
+
+/* Pseudo-elemento */
+p::first-line {
+    /* Estilos para a primeira linha de todos os parágrafos */
+}
+---------------------------------------------------------------------------------
+
+7- Box Model:
+Compreender o modelo de caixa é fundamental para controlar o layout dos elementos. O modelo de caixa inclui propriedades como width, height, padding, border, e margin.
+
+8- Testar e ajustar:
+Após definir os estilos, visualize a página em diferentes navegadores e dispositivos para garantir que os estilos estejam sendo aplicados corretamente e ajuste conforme necessário
