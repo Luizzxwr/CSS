@@ -1,0 +1,22 @@
+O que é CSS?
+CSS é uma linguagem de estilo usada para controlar a apresentação e o layout do conteúdo HTML em uma página da web. Ele permite definir cores, fontes, espaçamentos, tamanhos e posicionamentos de elementos.
+
+Seletores CSS:
+
+Os seletores são usados para identificar os elementos aos quais as regras de estilo serão aplicadas. Por exemplo, h1 seleciona todos os elementos <h1>.
+Os seletores podem ser simples, como h1 ou p, ou mais complexos, usando classes (.nome-da-classe) ou IDs (#id-do-elemento).
+Propriedades CSS:
+
+Cada regra CSS consiste em um seletor e um bloco de declaração contendo uma ou mais propriedades.
+As propriedades definem como os elementos selecionados devem ser estilizados. Exemplos de propriedades incluem color, font-size, margin, padding, background-color, entre outras.
+Modelo de Caixa:
+
+O modelo de caixa CSS descreve como os elementos HTML são renderizados na página, especificando sua largura, altura, margens, preenchimentos e bordas.
+Compreender o modelo de caixa é crucial para o posicionamento e o layout de elementos na página.
+Estilização Externa e Interna:
+
+CSS pode ser aplicado de três maneiras: inline (diretamente no elemento HTML), interno (usando a tag <style> no <head> do documento HTML) e externo (usando um arquivo CSS separado, geralmente referenciado com <link> no <head>).
+Seletores Avançados:
+
+Além de selecionar elementos diretamente, CSS oferece seletores avançados que permitem segmentar elementos com base em suas relações com outros elementos, estado (por exemplo, :hover para elementos quando o cursor está sobre eles) e outras características.
+Esses são os conceitos básicos de HTML e CSS. Eles formam a base para a construção de páginas da web e o design de sua aparência e layout.
